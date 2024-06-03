@@ -8,6 +8,9 @@ Simple project parser for CRON expression.
 
 ## To run the program and test it, you need to:
 1. Copy the Git repository.
+```
+git clone https://github.com/kbogusze/cronparser.git
+```
 2. Build the project using the Maven tool.
 ```
 mvn clean install
@@ -18,7 +21,7 @@ cd target
 ```
 4 Execute jar file.
 ```
-java -jar cronparser-1.0.jar "*/15 0 1,15 JAN-SEP 1-5 /usr/bin/find"+
+java -jar cronparser-1.0.jar "*/15 0 1,15 JAN-SEP 1-5 /usr/bin/find"
 ```
 
 
